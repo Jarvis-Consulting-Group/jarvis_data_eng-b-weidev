@@ -29,10 +29,9 @@ total_mem=$(vmstat --unit K | tail -1 | awk '{print $4}')
 # Generate query to insert into host_info table
 insert_query="INSERT INTO host_info(hostname, cpu_number, cpu_architecture, cpu_model, cpu_mhz, l2_cache, "timestamp", total_mem) VALUES('$hostname', $cpu_number, '$cpu_architecture', '$cpu_model', $cpu_mhz, $l2_cache, '$timestamp', $total_mem);"
 
-# Set password for psql
+# Password for psql
 export PGPASSWORD=$psql_password
 
 # Run query on host_info table
 psql -h $psql_host -p $psql_port -d $db_name -U $psql_user -c "$insert_query"
 exit $?
-
