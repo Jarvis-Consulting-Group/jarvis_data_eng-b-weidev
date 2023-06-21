@@ -89,7 +89,7 @@ Here is the schema used for the database:
 - `host_info`
 
   | Column | Data Type | Description |
-      | ------ | --------- | ----------- |
+  | ------ | --------- | ----------- |
   | `id` | Integer | Unique ID (Primary Key) |
   | `hostname` | String | Hostname of machine, must be unique |
   | `cpu_number` | Integer | Number of CPU cores |
@@ -103,7 +103,7 @@ Here is the schema used for the database:
 - `host_usage`
 
   | Column | Data Type | Description |
-      | ------ | --------- | ----------- |
+  | ------ | --------- | ----------- |
   | `"timestamp"` | Timestamp | Current time (yyyy-mm-dd hh:mm:ss) |
   | `host_id` | Integer | Host ID (References `id` in `host_info`)|
   | `memory_free` | Integer | Total amount of idle virtual memory (MB) |
