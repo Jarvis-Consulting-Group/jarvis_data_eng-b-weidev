@@ -1,4 +1,4 @@
-!#/bin/sh
+#!/bin/sh
 
 # CLI arguments - arg1 = command, arg2 = psql username, arg3 = psql password
 cmd=$1
