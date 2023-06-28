@@ -1,0 +1,117 @@
+{
+  "education": [
+    {
+      "awards_achievements": null,
+      "degree": "Honours Bachelors of Science",
+      "department": "Major in Mathematics, Minor in Computer Science and Statistics",
+      "duration": "2019-2023",
+      "school_name": "University of Toronto"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-b-weidev",
+  "highlighted_projects": [
+    {
+      "description": "Performed SQL on Canadian election data to gain insight into how political donations affect the outcome of elections. Data was taken from Elections Canada and cleaned using Python. Implemented the schema and queries using SQL. Conclusions were drawn based on the results of the queries, which were carefully chosen to answer key questions about the data.",
+      "git_url": "https://github.com/b-weidev/canadian-election-data-exploration",
+      "name": "Canadian Election Data Exploration"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Developed a Linux Cluster Monitoring system which is used for monitoring the hardware resource usages of each machine in a computer cluster. Implemented the app using BASH scripts and SQL. Tested the app using manual testing. Containerization of the PSQL environment was done using Docker, automation was done through crontab, and version control was done through Git.",
+      "git_url": "/linux_sql",
+      "name": "Cluster Monitor"
+    },
+    {
+      "description": [
+        "Twitter App: In progress",
+        "JDBC App: In progress",
+        "Grep App: In progress"
+      ],
+      "git_url": "/core_java",
+      "name": "Core Java Apps"
+    },
+    {
+      "description": "",
+      "git_url": "/springboot",
+      "name": "Springboot App"
+    },
+    {
+      "description": "",
+      "git_url": "/python_data_anlytics",
+      "name": "Python Data Analytics"
+    },
+    {
+      "description": "",
+      "git_url": "/hadoop",
+      "name": "Hadoop"
+    },
+    {
+      "description": "",
+      "git_url": "/spark",
+      "name": "Spark"
+    },
+    {
+      "description": "",
+      "git_url": "/cloud_devops",
+      "name": "Cloud/DevOps"
+    }
+  ],
+  "name": "Brandon Wei",
+  "others": [
+    {
+      "bullets": [
+        "N/A"
+      ],
+      "title": "Certificates"
+    },
+    {
+      "bullets": [
+        "N/A"
+      ],
+      "title": "Awards"
+    },
+    {
+      "bullets": [
+        "Piano"
+      ],
+      "title": "Activities/Hobbies"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "ItZact Solutions",
+      "description": "Designed the front-end user interface for the company website using Wix and communicating with the owner on their preferences. Assisted with installing Ethernet cables in the ceiling of client companies.",
+      "duration": "2020 May - 2020 August",
+      "title": "Part-time Office Worker"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "R",
+      "C",
+      "HTML/CSS",
+      "Javascript",
+      "VIM",
+      "scikit-learn",
+      "Latex",
+      "Docker"
+    ],
+    "familiar": [
+      "React",
+      "node.js",
+      "MIPS x32 Assembly",
+      "Google Cloud Platform",
+      "Amazon Web Services"
+    ],
+    "proficient": [
+      "Java",
+      "Python",
+      "Linux/Bash",
+      "RDBMS/SQL",
+      "Agile/Scrum",
+      "Git"
+    ]
+  },
+  "summary": "I am a recent graduate from the University of Toronto with an Honours Bachelor of Science degree majoring in mathematics and minoring in computer science and statistics. I am proficient in core computer science concepts such as object-oriented programming, data structures/algorithms as well as general software design concepts. I also have a background in working with data from various statistics courses, which includes cleaning data and combining different datasets to make them easier to work with in the analysis process. Throughout my academic career, I have also honed my critical thinking and problem-solving skills on a daily basis. I consider myself someone who has a passion for learning, and what excites me the most about software engineering as a career is that nothing stays static and there are always new technologies to learn. All in all, I am excited to have the opportunity to work with other professionals in the field and apply my skills to industry-level projects."
+}
