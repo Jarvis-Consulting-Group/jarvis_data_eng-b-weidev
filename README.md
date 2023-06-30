@@ -15,23 +15,7 @@ I am a recent graduate from the University of Toronto with an Honours Bachelor o
 Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-b-weidev](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-b-weidev)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-b-weidev/tree/master/linux_sql)]: Developed a Linux Cluster Monitoring system which is used for monitoring the hardware resource usages of each machine in a computer cluster. Implemented the app using BASH scripts and SQL. Tested the app using manual testing. Containerization of the PSQL environment was done using Docker, automation was done through crontab, and version control was done through Git.
-
-**Core Java Apps** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-b-weidev/tree/master/core_java)]:
-      
-  - Twitter App: In progress
-  - JDBC App: In progress
-  - Grep App: In progress
-
-**Springboot App** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-b-weidev/tree/master/springboot)]: Not Started
-
-**Python Data Analytics** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-b-weidev/tree/master/python_data_anlytics)]: Not Started
-
-**Hadoop** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-b-weidev/tree/master/hadoop)]: Not Started
-
-**Spark** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-b-weidev/tree/master/spark)]: Not Started
-
-**Cloud/DevOps** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-b-weidev/tree/master/cloud_devops)]: Not Started
+**Cluster Monitor** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-b-weidev/tree/master/linux_sql)]: Developed a Linux Cluster Monitoring system which is used for monitoring the hardware resource usages of each machine in a computer cluster. Implemented the app using Bash scripts and SQL. Tested the app using manual testing. Containerization of the PSQL environment was done using Docker, automation was done through crontab, and version control was done through Git.
 
 
 ## Highlighted Projects
@@ -40,7 +24,7 @@ Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 
 ## Professional Experiences
 
-**Part-time Office Worker, ItZact Solutions (2020 May - 2020 August)**: Designed the front-end user interface for the company website using Wix and communicating with the owner on their preferences. Assisted with installing Ethernet cables in the ceiling of client companies.
+**Part-time Office Worker, ItZact Solutions (2020 May - 2020 August)**: Designed the front-end user interface for the company website using Wix and communicated with the owner on their preferences. Assisted with installing Ethernet cables in the ceiling for client companies.
 
 
 ## Education
@@ -48,6 +32,4 @@ Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 
 
 ## Miscellaneous
-- N/A
-- N/A
-- Piano
+- Played piano up to the ARCT level and was a part of the Arts Unionville (specialized in music) program in high school.

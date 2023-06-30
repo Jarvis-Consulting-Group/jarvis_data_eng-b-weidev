@@ -18,62 +18,16 @@
   ],
   "jarvis_projects": [
     {
-      "description": "Developed a Linux Cluster Monitoring system which is used for monitoring the hardware resource usages of each machine in a computer cluster. Implemented the app using BASH scripts and SQL. Tested the app using manual testing. Containerization of the PSQL environment was done using Docker, automation was done through crontab, and version control was done through Git.",
+      "description": "Developed a Linux Cluster Monitoring system which is used for monitoring the hardware resource usages of each machine in a computer cluster. Implemented the app using Bash scripts and SQL. Tested the app using manual testing. Containerization of the PSQL environment was done using Docker, automation was done through crontab, and version control was done through Git.",
       "git_url": "/linux_sql",
       "name": "Cluster Monitor"
-    },
-    {
-      "description": [
-        "Twitter App: In progress",
-        "JDBC App: In progress",
-        "Grep App: In progress"
-      ],
-      "git_url": "/core_java",
-      "name": "Core Java Apps"
-    },
-    {
-      "description": "",
-      "git_url": "/springboot",
-      "name": "Springboot App"
-    },
-    {
-      "description": "",
-      "git_url": "/python_data_anlytics",
-      "name": "Python Data Analytics"
-    },
-    {
-      "description": "",
-      "git_url": "/hadoop",
-      "name": "Hadoop"
-    },
-    {
-      "description": "",
-      "git_url": "/spark",
-      "name": "Spark"
-    },
-    {
-      "description": "",
-      "git_url": "/cloud_devops",
-      "name": "Cloud/DevOps"
     }
   ],
   "name": "Brandon Wei",
   "others": [
     {
       "bullets": [
-        "N/A"
-      ],
-      "title": "Certificates"
-    },
-    {
-      "bullets": [
-        "N/A"
-      ],
-      "title": "Awards"
-    },
-    {
-      "bullets": [
-        "Piano"
+        "Played piano up to the ARCT level and was a part of the Arts Unionville (specialized in music) program in high school."
       ],
       "title": "Activities/Hobbies"
     }
@@ -81,7 +35,7 @@
   "professional_experience": [
     {
       "company": "ItZact Solutions",
-      "description": "Designed the front-end user interface for the company website using Wix and communicating with the owner on their preferences. Assisted with installing Ethernet cables in the ceiling of client companies.",
+      "description": "Designed the front-end user interface for the company website using Wix and communicated with the owner on their preferences. Assisted with installing Ethernet cables in the ceiling for client companies.",
       "duration": "2020 May - 2020 August",
       "title": "Part-time Office Worker"
     }
