@@ -17,6 +17,8 @@ Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 
 **Cluster Monitor** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-b-weidev/tree/master/linux_sql)]: Developed a Linux Cluster Monitoring system which is used for monitoring the hardware resource usages of each machine in a computer cluster. Implemented the app using Bash scripts and SQL. Tested the app using manual testing. Containerization of the PSQL environment was done using Docker, automation was done through crontab, and version control was done through Git.
 
+**SQL Query Practice** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-b-weidev/tree/master/sql)]: Implemented a collection of SQL queries to be run on a database holding information about club facilities, club members and booking information based on a set of requirements. Used various query techniques such as joins, aggregation, window functions and string manipulation. Tested the queries by running them on a local PostgreSQL database. Containerization of the PSQL environment was done using Docker and version control was done through Git.
+
 
 ## Highlighted Projects
 **Canadian Election Data Exploration** [[GitHub](https://github.com/b-weidev/canadian-election-data-exploration)]: Performed SQL on Canadian election data to gain insight into how political donations affect the outcome of elections. Data was taken from Elections Canada and cleaned using Python. Implemented the schema and queries using SQL. Conclusions were drawn based on the results of the queries, which were carefully chosen to answer key questions about the data.
