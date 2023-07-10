@@ -1,6 +1,5 @@
 # Introduction
-(about 100-150 words)
-Discuss the design of the project. What does this project/product do? Who are the users? What are the technologies you have used? (e.g. bash, docker, git, etc..)
+This project consists of a collection of SQL queries to be run on a database that tracks data on club facilities and their members, as well as which time slots are booked at any given time. Various query techniques are used, such as aggregation and grouping, joins and string manipulation. Database was provisioned using the official PostgreSQL Docker image through a Docker container, and the entire project consists of a set of queries written in SQL code.
 
 # SQL Queries
 
@@ -16,7 +15,7 @@ CREATE TABLE IF NOT EXISTS cd.members (
 	telephone VARCHAR(20) NOT NULL,
 	recommendedby INTEGER,
 	joindate TIMESTAMP NOT NULL,
-    CONSTRAINT PK_Members PRIMARY KEY (memid),
+        CONSTRAINT PK_Members PRIMARY KEY (memid),
 	CONSTRAINT FK_MemberRecommended FOREIGN KEY (recommendedby) REFERENCES (memid) ON DELETE SET NULL
 );
 
@@ -26,7 +25,7 @@ CREATE TABLE IF NOT EXISTS cd.bookings (
 	memid INTEGER NOT NULL,
 	starttime TIMESTAMP NOT NULL,
 	slots INTEGER NOT NULL,
-    CONSTRAINT PK_Bookings PRIMARY KEY (bookid),
+        CONSTRAINT PK_Bookings PRIMARY KEY (bookid),
 	CONSTRAINT FK_Bookings_Facilities FOREIGN KEY (facid) REFERENCES cd.facilities(facid),
 	CONSTRAINT FK_Bookings_Members FOREIGN KEY (memid) REFERENCES cd.members(memid)	
 );
@@ -38,7 +37,7 @@ CREATE TABLE IF NOT EXISTS cd.facilities (
 	guestcost NUMERIC NOT NULL,
 	initialoutlay NUMERIC NOT NULL,
 	monthlymaintenance NUMERIC NOT NULL,
-    CONSTRAINT PK_Facilities PRIMARY KEY (facid)
+        CONSTRAINT PK_Facilities PRIMARY KEY (facid)
 );
 ```
 
