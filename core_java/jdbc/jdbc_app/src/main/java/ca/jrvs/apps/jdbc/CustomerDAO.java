@@ -14,6 +14,7 @@ public class CustomerDAO extends DataAccessObject<Customer> {
             "email, phone, address, city, state, zipcode FROM customer WHERE customer_id=?";
     private static final String UPDATE = "UPDATE customer SET first_name = ?, last_name=?, " +
             "email = ?, phone = ?, address = ?, city = ?, state = ?, zipcode = ? WHERE customer_id = ?";
+    private static final String DELETE = "DELETE FROM customer WHERE customer_id = ?";
 
     public CustomerDAO(Connection connection) {
         super(connection);
@@ -92,6 +93,12 @@ public class CustomerDAO extends DataAccessObject<Customer> {
 
     @Override
     public void delete(long id) {
-
+        try (PreparedStatement statement = this.connection.prepareStatement(DELETE);) {
+            statement.setLong(1, id);
+            statement.execute();
+        } catch (SQLException e) {
+            e.printStackTrace();
+            throw new RuntimeException(e);
+        }
     }
 }
