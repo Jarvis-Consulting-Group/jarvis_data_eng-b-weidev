@@ -52,6 +52,13 @@ public class CustomerDAO extends DataAccessObject<Customer> {
     @Override
     public Customer update(Customer dto) {
         Customer customer = null;
+        // Transaction auto-commit set to false, so changes can be rolled back
+        try {
+            this.connection.setAutoCommit(false);
+        } catch (SQLException e) {
+            e.printStackTrace();
+            throw new RuntimeException(e);
+        }
         try (PreparedStatement statement = this.connection.prepareStatement(UPDATE);) {
             statement.setString(1, dto.getFirstName());
             statement.setString(2, dto.getLastName());
@@ -86,6 +93,13 @@ public class CustomerDAO extends DataAccessObject<Customer> {
             int id = this.getLastVal(CUSTOMER_SEQUENCE);
             return this.findById(id);
         } catch (SQLException e) {
+            // Rollback all changes
+            try {
+                this.connection.rollback();
+            } catch (SQLException sqle) {
+                sqle.printStackTrace();
+                throw new RuntimeException(sqle);
+            }
             e.printStackTrace();
             throw new RuntimeException(e);
         }
