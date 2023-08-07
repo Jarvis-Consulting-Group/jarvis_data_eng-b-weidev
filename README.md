@@ -4,23 +4,25 @@ I am a recent graduate from the University of Toronto with an Honours Bachelor o
 
 ## Skills
 
-**Proficient:** Java, Python, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
+**Proficient:** Javascript, Typescript, Angular, Node.js, Express.js, HTML/CSS, PySpark, Java, Python, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
 
-**Competent:** R, C, HTML/CSS, Javascript, VIM, scikit-learn, Latex, Docker
+**Competent:** R, VIM, scikit-learn, Latex, Docker
 
-**Familiar:** React, node.js, MIPS x32 Assembly, Google Cloud Platform, Amazon Web Services
+**Familiar:** React, C, MIPS x32 Assembly, Google Cloud Platform, Amazon Web Services
 
 ## Jarvis Projects
 
 Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-b-weidev](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-b-weidev)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-b-weidev/tree/master/linux_sql)]: (Develop branch, not yet merged to master) Developed a Linux Cluster Monitoring system which is used for monitoring the hardware resource usages of each machine in a computer cluster. Implemented the app using Bash scripts and SQL. Tested the app using manual testing. Containerization of the PSQL environment was done using Docker, automation was done through crontab, and version control was done through Git.
+**Cluster Monitor** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-b-weidev/tree/master/linux_sql)]: Developed a Linux Cluster Monitoring system which is used for monitoring the hardware resource usages of each machine in a computer cluster. Implemented the app using Bash scripts and SQL. Tested the app using manual testing. Containerization of the PSQL environment was done using Docker, automation was done through crontab, and version control was done through Git.
 
-**SQL Query Practice** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-b-weidev/tree/master/sql)]: (Develop branch, not yet merged to master) Implemented a collection of SQL queries to be run on a database holding information about club facilities, club members and booking information based on a set of requirements. Used various query techniques such as joins, aggregation, window functions and string manipulation. Tested the queries by running them on a local PostgreSQL database. Containerization of the PSQL environment was done using Docker and version control was done through Git.
+**SQL Query Practice** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-b-weidev/tree/master/sql)]: Implemented a collection of SQL queries to be run on a database holding information about club facilities, club members and booking information based on a set of requirements. Used various query techniques such as joins, aggregation, window functions and string manipulation. Tested the queries by running them on a local PostgreSQL database. Containerization of the PSQL environment was done using Docker and version control was done through Git.
 
 
 ## Highlighted Projects
+**Library Manager** [[GitHub](https://github.com/b-weidev/library-manager)]: Developed a full-stack library manager app using Javascript/Typescript frameworks such as Node.js/Express for the backend API and Angular for the frontend user interface. Contains create, read, update and delete functionalities for the library manager to add new books, search for books by a certain field, update the fields for a given book and delete a book from the library. Unit testing was done through Jest, end-to-end testing was done through Cypress.
+
 **Canadian Election Data Exploration** [[GitHub](https://github.com/b-weidev/canadian-election-data-exploration)]: Performed SQL on Canadian election data to gain insight into how political donations affect the outcome of elections. Data was taken from Elections Canada and cleaned using Python. Implemented the schema and queries using SQL. Conclusions were drawn based on the results of the queries, which were carefully chosen to answer key questions about the data.
 
 

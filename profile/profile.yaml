@@ -12,6 +12,13 @@ summary: I am a recent graduate from the University of Toronto with an Honours B
 skills:
   # At least 5 skills
   proficient:
+    - Javascript
+    - Typescript
+    - Angular
+    - Node.js
+    - Express.js
+    - HTML/CSS
+    - PySpark
     - Java
     - Python
     - Linux/Bash
@@ -21,9 +28,6 @@ skills:
   # At least 5 skills
   competent:
     - R
-    - C
-    - HTML/CSS
-    - Javascript
     - VIM
     - scikit-learn
     - Latex
@@ -31,7 +35,7 @@ skills:
   # At least 5 skills
   familiar:
     - React
-    - node.js
+    - C
     - MIPS x32 Assembly
     - Google Cloud Platform
     - Amazon Web Services
@@ -42,10 +46,10 @@ jarvis_projects:
     git_url: "/linux_sql"
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: (Develop branch, not yet merged to master) Developed a Linux Cluster Monitoring system which is used for monitoring the hardware resource usages of each machine in a computer cluster. Implemented the app using Bash scripts and SQL. Tested the app using manual testing. Containerization of the PSQL environment was done using Docker, automation was done through crontab, and version control was done through Git.
+    description: Developed a Linux Cluster Monitoring system which is used for monitoring the hardware resource usages of each machine in a computer cluster. Implemented the app using Bash scripts and SQL. Tested the app using manual testing. Containerization of the PSQL environment was done using Docker, automation was done through crontab, and version control was done through Git.
   - name: "SQL Query Practice"
     git_url: "/sql"
-    description: (Develop branch, not yet merged to master) Implemented a collection of SQL queries to be run on a database holding information about club facilities, club members and booking information based on a set of requirements. Used various query techniques such as joins, aggregation, window functions and string manipulation. Tested the queries by running them on a local PostgreSQL database. Containerization of the PSQL environment was done using Docker and version control was done through Git.
+    description: Implemented a collection of SQL queries to be run on a database holding information about club facilities, club members and booking information based on a set of requirements. Used various query techniques such as joins, aggregation, window functions and string manipulation. Tested the queries by running them on a local PostgreSQL database. Containerization of the PSQL environment was done using Docker and version control was done through Git.
 #  - name: "Core Java Apps"
 #    git_url: "/core_java"
 #    description:
@@ -72,11 +76,17 @@ jarvis_projects:
 # Feel free to add more projects
 highlighted_projects:
   #project name
+  - name: "Library Manager"
+    #URL is optional
+    git_url: "https://github.com/b-weidev/library-manager"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Developed a full-stack library manager app using Javascript/Typescript frameworks such as Node.js/Express for the backend API and Angular for the frontend user interface. Contains create, read, update and delete functionalities for the library manager to add new books, search for books by a certain field, update the fields for a given book and delete a book from the library. Unit testing was done through Jest, end-to-end testing was done through Cypress.
   - name: "Canadian Election Data Exploration"
     #URL is optional
     git_url: "https://github.com/b-weidev/canadian-election-data-exploration"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: Performed SQL on Canadian election data to gain insight into how political donations affect the outcome of elections. Data was taken from Elections Canada and cleaned using Python. Implemented the schema and queries using SQL. Conclusions were drawn based on the results of the queries, which were carefully chosen to answer key questions about the data.
+
 
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
