@@ -19,6 +19,12 @@ Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 
 **SQL Query Practice** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-b-weidev/tree/master/sql)]: Implemented a collection of SQL queries to be run on a database holding information about club facilities, club members and booking information based on a set of requirements. Used various query techniques such as joins, aggregation, window functions and string manipulation. Tested the queries by running them on a local PostgreSQL database. Containerization of the PSQL environment was done using Docker and version control was done through Git.
 
+**Core Java Apps** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-b-weidev/tree/master/core_java)]:
+      
+  - JDBC App: Connected Java application code to a PostgreSQL database to interact with the data on the database using the JDBC API. Implemented create, read, update and delete operations using the DAO (Data Access Object) Repository design pattern. Tested the functionality through manual testing. Containerization of the PSQL environment was done using Docker and version control was done through Git.
+  - Twitter App: In progress
+  - Grep App: In progress
+
 
 ## Highlighted Projects
 **Library Manager** [[GitHub](https://github.com/b-weidev/library-manager)]: Developed a full-stack library manager app using Javascript/Typescript frameworks such as Node.js/Express for the backend API and Angular for the frontend user interface. Contains create, read, update and delete functionalities for the library manager to add new books, search for books by a certain field, update the fields for a given book and delete a book from the library. Unit testing was done through Jest, end-to-end testing was done through Cypress.

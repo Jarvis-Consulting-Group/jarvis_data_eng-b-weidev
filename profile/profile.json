@@ -31,6 +31,15 @@
       "description": "Implemented a collection of SQL queries to be run on a database holding information about club facilities, club members and booking information based on a set of requirements. Used various query techniques such as joins, aggregation, window functions and string manipulation. Tested the queries by running them on a local PostgreSQL database. Containerization of the PSQL environment was done using Docker and version control was done through Git.",
       "git_url": "/sql",
       "name": "SQL Query Practice"
+    },
+    {
+      "description": [
+        "JDBC App: Connected Java application code to a PostgreSQL database to interact with the data on the database using the JDBC API. Implemented create, read, update and delete operations using the DAO (Data Access Object) Repository design pattern. Tested the functionality through manual testing. Containerization of the PSQL environment was done using Docker and version control was done through Git.",
+        "Twitter App: In progress",
+        "Grep App: In progress"
+      ],
+      "git_url": "/core_java",
+      "name": "Core Java Apps"
     }
   ],
   "name": "Brandon Wei",
